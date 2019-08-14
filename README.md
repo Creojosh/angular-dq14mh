@@ -22,8 +22,8 @@
 ...
 </pre>
 
-<p>Cloner le projet dans un autre dossier puis dans le fichier /src supprimmer le fichier polyfills.ts et copier/coller le contenu /src dans votre projet angular</p>
+<p>Cloner le projet github dans un autre dossier puis dans le fichier /src supprimer le fichier polyfills.ts et copier/coller le contenu /src dans votre projet angular dans le même dossier /src</p>
 
-<p>Mais le plus simple est d'utiliser le lien StackBlitz et de cliquer sur Fork</p>
+<p>Ou tout simplement c'est d'utiliser le lien StackBlitz et de cliquer sur Fork</p>
 
 
