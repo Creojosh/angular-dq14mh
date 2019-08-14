@@ -1,0 +1,22 @@
+<div [ngClass]="{'card m-1': true,
+                'border-success anim-green': postLike > 0,
+                'border-danger anim-red': postLike < 0}">
+  <div class="card-body">
+    <div class="row">
+    <div class="col-sm-7">
+      <h5 class="card-title">{{postTitle}}</h5> 
+    </div>
+     <div class="col-sm-5 text-right">
+      <span class="text-muted">{{postDate | date: 'short'}}</span> 
+    </div>
+    </div>
+    
+    <p class="card-text">{{postContent}}</p>
+    <button type="button" class="btn btn-outline-success m-1"
+      (click)="up()">Like</button>
+    <button type="button" class="btn btn-outline-danger m-1"
+      (click)="down()">Dislike</button>
+    <span class="badge">{{postLike}}</span>
+  </div>
+</div>
+

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {MatMenuModule} from '@angular/material/menu';
+import { posts } from './posts';
+
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
@@ -7,4 +8,5 @@ import {MatMenuModule} from '@angular/material/menu';
 })
 export class AppComponent  {
   name = 'OpenClassrooms';
+  posts = posts;
 }

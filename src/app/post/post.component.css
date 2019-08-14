@@ -1,0 +1,22 @@
+.anim-green {
+  background-color: white;
+  animation-name: up;
+  animation-duration: 2s;
+}
+.anim-red {
+  background-color: white;
+  animation-name: down;
+  animation-duration: 2s;
+}
+
+@keyframes up {
+  0%   {background-color: white;}
+  50%   {background-color: green;}
+  100% {background-color: white;}
+}
+
+@keyframes down {
+  0%   {background-color: white;}
+  50%   {background-color: red;}
+  100% {background-color: white;}
+}
