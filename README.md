@@ -4,7 +4,7 @@
 
 <a href="https://mooc-angular-dq14mh.firebaseapp.com/?30091" target="_blank">Démo</a>
 
-<h1>Installation en local</h1>
+<h1>Installation sans StackBlitz</h1>
 
 <h3>Création du projet Angular</h3>
 <pre>$ ng new mon-projet-angular</pre>
